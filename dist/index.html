@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healt APP</title>
+  <link rel="stylesheet" crossorigin href="/Healt_App/assets/index-OYr2hxs5.css">
+</head>
+
+<html>
+
+<body>
+  <div class="top-banner">
+    <div class="banner-content">
+      <img src="/Healt_App/assets/path-left-DRNgYV72.png">
+      <div class="banner-title">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAN3SURBVHgBrZdNbhoxFMff8xjaKqo63eRjN5ygICVRdyE3gBMkPUHSVdSwCJFKqqqLwAlCTtDkBJBV1aQS3KB0hZIuyiIgBWbsPpsJHWA+Sf9SgjEe/2z/7fc8CAnV6h5YDmNZgdJ8rEOUHX7/op3LlHsJugKM0+jm90EeJd+RCAWQYIY0bSKDujFKXeXWyp2IboFDBBQkPyJgXqoKCVHKSwH5ERteULkY1ZhBILh0SuCG6hCSSEI7NRi8033clU5b3bIV1HRu2Vs/y6a9NFLQLCQVgfmgv53LVHs/7g7PJOAuVbZ5f6DrZpvz/wZWMqA8BZa0EYVT9AMrTc38+rZUR4QdSC7VudqIHbecdcHbubXPneu7wywCfuVOatu7ESeeU4PdhcBqqfv9DEpUG8zyBSOq1bQe8KHgfVTDv9GmoJEdQVJ5PBbMHbgfWB1PCcdvVz9VvY9rzw1jmCcHLEgoLuzixGMpC2HgjZVK2V3+M1opPWA984VmTbINvkfHqeHZXHNgIeTlBDxe/qz9cmlLPc9uuhRIxl7FEy21BJmjUpP+9kHFgaAZKwDDN99vP5S9dcKWOg4wx+Dxj5Xr8ebySRvADbMhS+0O0mLIjrxhmQa05X6OC9FggngCCATtao/HIb2ZKkExlNKMBUc0R0spayaAzIMRqjMe+8rm3GKRUO0xKm9NhHQrFOxKZ8GZOj+xKPDY4481GEeuQI9RyJpEvKDyvk5IEWANpwf8LwDzHpthHq+vnuwz4ZxDTEk5pHMuxS//H+HSJ0mEBhDJ2BnE1ObylzbedEt5ykYN74z1J6JFm6c3BgR7TMkiMzKGZhyPPWpuLFe2GX+eUmfW9VN5PMjJUbrofg8DN9VzNh+1EoIBJdTVJ8u9LveEFDVvkmDp4d7jKgQuNY2cgsi5+z02WMkQ9pWGq3/p9LPq3A0kTpJATJyC6QJRV3265X+KBNOVaGP5JOd3tmPJ0+8UvPWHrlAjukJRxAvwWN9WKHVeIMN8YjBor3fXVyqT4zgJMsp727GLIR6/pmZtqissAtaxwAOemrlXIR43FgX7JRrflwbHcXqcGbTMWHsiuAeCwKuVqt+Pka9LTwA36Si+d3O/rzhESK+CwY9pI+7pqBcDCg7Ndq3SjGoY60XxUWoVaI9ugRAZuoW8mgyQ8oMBRtsY3DeDXhD89Bdr0aM2fyRlJQAAAABJRU5ErkJggg==">
+        <p>Join Our Personalized Nutrition Demo For Free</p>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAWCAYAAADeiIy1AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACxSURBVHgBxZRBDcMwDEV/pgHYGBRCIRTCGHQMNgYLhEAIk41BIRTCysC1lVStcqhUyU6f9CVf4pdIjoGDEFHD+XIGqWEFN+9oZbSWDTVl8SzZn9PCCm7uz5Q9YEUhE3pYsSe75mn5QI+Jc8u1DMvdORfkFoGMEeOF84MtEdpQ2oPj5jER2nDTltJoV5UEaENpm28lHtpw074YMA9takleNSRdIXnDgvxXFp6wJMuaI2dmg4q6eCG5SxkAAAAASUVORK5CYII=">
+      </div>
+      <img src="/Healt_App/assets/path-right-_tG3qrVM.png">
+    </div>
+  </div>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOxSURBVHgB5ZlBTttAFIbfzNhUKl0EqQVlF26QSIDUVcMJCieAnKBlhQpdBFVQdUVu0PQEoScgrJAgEukJyA5BK9WboBbbmb43CTRQ27HfpEUV38agTPz+Gc+89/tFwJg4Oa3mgidXr0CLMggogoYcXj28toWE+tzT7U8wJgSMgeOv62UAp2GExtMRurc2N/N+DyyxFt36trmie1BPO15oWJ2bsVt1K9GHZ9WCo/xTyIbnhG6plK92gIkEC5T0q5CdXKD8j2ABe6WZq3yD0+1OlWZrHjBgr7RSV2WwwJ98vARM2KK11gWwwOb7Vnv6vuCvtJCs/XgTWMkTYMIXHQZWRcLxgy/AhC36ef5DBy9NYIApq17qf5+F1Z7WoNfwknWbeCoMtsACK9EL0zttHRrhqdEg12xWmYgsLuTY/MkfS1qLAv2vANqq96gdV3qPzjZWhRIjqxwKrixMv6tHxjxbL/gT7ksdhFMmppKnyncPomLeEj2ochS8HHVj2osqdLeibjRKeJzgo4uNogCxmyXmjWjj1jTURthLwkOn9jrKqcUI9yCE5fn8dvPu+Awxb7lDI7p1/mYJ824DMhBnMVvnb/FemoSTEA8P6yLtfYgSnMHS9oPC4vyz7aYRfXyxScanABmJE24euYaGFrA8NsF9PDRaswIDrOKe4lvFwezTDrcQbOjp3pZEwStgA64orWyaoWYbWggmpJAvKE+nCphADie+P0o4fa6ltDL/A4okeuTJTUGO9nDSAJxYI02WSBOLRFu5tQEeHbqkAZhFlscVi0S3wRJsDVSissQwpuRj+gN74W2Jp/EALKBKl7aXYSYWJj+RUeA2rMuJiUc1YM4+qTRT7o86nFQZ0WRVgBVQd6guyNJU1ePMPtFLCLGPfxYoq1CauztmIb9T5wgXfSvct6YZZ+/FCab2mBH8O0vkyB60zjdXEoSnecre8DaUwzcJwmAWDUxSy6rZ9xJ/CqZKB9rZj0prmFnqccIxZmlUTAfHDMeM9NOH6G2VUuXr13wh1Hc3dD7H+em0pTmpj0cxXekWQwiL/Zii43Yv96IaOg+0Aen4JxkrXaxdTYt9AzJ7ac4N3lTY3F8DEg899wWXvdKuDKzc4U8h/30D8vqUcxGC7/geVgOS8ihYoECyzwN/T7sTVg1I1QvY7pIt2hit/7EBib4hreG5xb02IKndy2hAVv5KAzIrpqsEvV08nYWEYbHtsayMRfQ1g8YPWVDK4aYtBvQOquHAuezWuD/B3eUXqMfdw7XV9e4AAAAASUVORK5CYII=">
+        <h2>Nutritionist</h2>
+      </div>
+      <div class="container">
+        <div class="buttons-container">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Team</a>
+          <a href="#">Process</a>
+          <a href="#">Pricing</a>
+          <a href="#">Blog</a>
+        </div>
+        <div>
+          <button>Contact Us</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-image">
+      <img src="/Healt_App/assets/hero-VTa88Fef.png" alt="Fitness Woman">
+    </div>
+
+    <div class="hero-container">
+      <div class="hero-content">
+        <h3>Transform Your ❤️ Health with</h3>
+        <div class="bottom-line"></div>
+        <h1>Personalized Nutrition Coaching</h1>
+        <p>Welcome to Nutritionist, your partner in achieving optimal health through personalized nutrition coaching.
+          Our
+          certified nutritionists are here to guide you on your weight loss journey, providing customized plans and
+          ongoing support. Start your transformation today and experience the power of personalized nutrition coaching.
+        </p>
+        <div>
+          <button id="btnStart">Get Starter Today</button>
+          <button id="btnDemo">Book a Demo</button>
+        </div>
+        <div class="customers">
+          <div class="customers-image">
+            <img src="/Healt_App/assets/customer1-DZMN270_.png">
+            <img src="/Healt_App/assets/customer2-Dj-2M42o.png">
+            <img src="/Healt_App/assets/customer3-CujFolNk.png">
+          </div>
+          <p> <span style="color: #356554;">430+</span> Happy Customers</p>
+        </div>
+      </div>
+
+  </section>
+
+  <section class="features">
+    <div class="features-container">
+      <div class="features-text">
+        <h2>Features</h2>
+        <p>Welcome to the Feature Section of Nutritionist, your ultimate destination for all things nutrition and
+          wellness.</p>
+      </div>
+
+      <div class="feature-info">
+        <div class="feature-card">
+          <div class="card-container">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABECAYAAAA4E5OyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATqSURBVHgB7ZxBaBRXGMe/N7vbwyYFhQSyFtoVTGn1YJaQHgomzaE0sQeltjm1hwhFL5XQi2gK3UC19FITvehFD3oyKvGgLnpQEtRDoo4HIySCq6AJ7oIR3RXcrOP7P7Myec5udnfmTYz7fjBkZt9kyfz3+773vf8Ly0hiPLX7Oysf2MoM2kLEovRxYjJ+BPKhgVgknrQPsMLJrfvxVfP1ub/Joj6qJRgNBl9kBmJrB+feXtKCGHW5y/y0hWoTM5jJdEIUA1ciMmpXDNAyX18HDYhdn4lHg4HcfdIgXzqNgJGLk0Zg5a2tBmO0kTQCZrAtqCG1XDtkogZpFqEFkdCCSGhBJLQgEloQCS2IxLILknmeo4mxR/ShoFSQidHH9HvXCJ0+eqfoPf29F+nAnmt0ZN+44zgE++ePK9T383l6MD1HqlEqSGJ4irIvcnTm6KSjKMcPmpSazYrz0QtJunBy6v17Dpl091aK35cR96hGmSCpmYx4kAKyKAn+8ImT04t+58TB24ui4PD+cRo7n3x3PWo7V4UyQR7ee/beawVRINZpfu4E0gfjshgA0ZbmYyoJkiKS008dX4coiAw8nBNIjb29l4qOT5opao/UkSrUpcxs8U+y2MOWM555/opUsuL6kKXEdMuKE6RRYboAZYJE160iFTQ2rVBBvmheTSr4vFmN0AWUCfJ1rJHC9SHyErxnncfvKaO0hnT1NJOXtHdHSTVKBenu+ZIamsLkBa2b1lD75iipRqkgSJmd/d+QWxp4If1tlz+bA8qnXeT9jv42qhaI8ee/3yqfbgv40ocg9/cf+77i9IGYfx3q4DOW2pnFDht/0m+Rj2DFmhieLultQIht2zeIn37juyAFsKJNcy/k/z1XRTuOKIAIX7XwqfVTtVNrKZStdpcCNQFHmD88BEEBxkyy3GiTWUILIlF1ysACnBh7LM4R7qgB4uCLOj+mSNQgmEUPp57xlHv1zn9B2qEhrJaqBYEFaPcmbiyIAzA7YKpt3fSZpwUSDjyMa5jN6Zls0fuWRZDW9jXc83zgOAZzGUdj0yT90LPO1R8IIMQJ7tCX47q7Xe9UXUM6utcueQ/CGE469lRSVZrDSM2+X86VJQa6WrfrnaoFQVqU2zgVjONKtxGwb3OcC1qubdjhweLP1SyzY29b2Z4HHuoI31pw2oxyAtsQ8r5NKRAdP21fT25xJQhmE3SXlYAUmrAVYCcQGWMVRhPWPF7gug+BCVRp3iZKRInTjt5SwBrwaqr3pDFD6nhh3qDwomZUAiLUS2fOs04VoridXs8U2d4sBiLDi7phx9PF3a+7NooiW+rfH4qR4o2WfXO8FCigO7nppMIe8Hwtg09scHhzxWZQera8PqWLRyHMJlVeiZLlPwrc0KkfRd+BaEnPZsktfplGSv0QFFocSAV0mpM3n1QkTkMkLDpiLNj8shF9MYjsXS2sQ3vnua13gxALG1Dh+k+ECIiw9dw5a/DJWLazbBbih4o2iCS0IBJaEAktiIQWREILIqEFkdCCSHBBrCRpFrBMg7epZ0kjYMRMg+XZCGkEgfz8gNEW2XeFKzNENQ57bQ3FIv8lRVENhIJx/sOkWsUiM/AyG8epECS2Oj4XDIU6azFSEBnB7NvvDhHX8g3XZ3ZHA0YwvvAlCR/p9wJYSes1nWUWG0HJsI+8AUtm2EQKE0lkAAAAAElFTkSuQmCC">
+            <h2>Personalized Nutrition Plans</h2>
+          </div>
+          <p>Receive a tailored nutrition plan designed specifically for your body and goals. Our certified
+            nutritionists will consider your unique needs, dietary preferences, and health conditions to create a plan
+            that suits you best.</p>
+        </div>
+        <div class="feature-card">
+          <div class="card-container">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABECAYAAAA4E5OyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASZSURBVHgB7ZxPaBNZHMd/b5IsbBOxC8lidkFTaBfMHjbB7Wmpa0+2vShdtqdd2HUPnvbfSdCFTQ8q3vxz8qAePKlY9GIrHtT24KHW5mIUW2gqaMUULNiJYBrH3/eZkfTRiknmTVvzPjDMTJOGzGfe7897CRGkMF44sMspB/YKi/YQiQR9mmQFb4FyaDAdz+SrHxDuweRMpnUpUvqfHPqHmglBx4OL9mC67fjCu1OqyAiXbvJhipqTbNC2uyHFwpkcGc0rA6SWImE4IHFnLpMIBkozZEC8dFsBq5Qhg8QpO3stIeg7MkiEJfYghzRz7lBJWGRYhhGiYIQoGCEKRoiCEaJghCgYIQpGiIIRomCEKARpDbk79oRGLk7R7NQCFRdL8m/bOlqp5+cO2p6OUSweJr8R488POeQj9ssSjVx6JEW4ElZjZ2+C+vclfRXjm5BaRKhATFffNkqmvyTdaBdSmLNZwjSNDs/ULEIFYQQ5O/sSpAttQnKTz2nobI4eTBbIa2JbwjKUdIjxXIhOESoQs3ugnb7v+tqzPOOZkJGLjzgsZmXF8JuWSEhK8SIBeyLk4G83aHa6PhEY9sgLW9tbaf6ZLYWeP5mtK99AzH+ndsnSXS8N9yEFXESdMqI85Pcf7Hx/Ht7UKi8Gr4mwqxVIRG+zpkIQx3gDtYQK7mTvwDe0mxswgJIc3hSS+9npFzR2LU/1gNfFaGsEz3LIKF/E5bP3edgXV31OtQgI8CoBSxF9bdzhtq+PHFLNSmIQGr1cDbp62zwXUS3YC7T1IbhYVJ4efsNoqMB6FuHiS+uObvXwn7c4WRapETZsp+qOhF/+SlGikvEhZehcToZUrUDET/u+fT/S3HlRkfe//u3tB4/apv8Ii+s8kdt/qFNWIFQilNj+35M0xg3c7WszH0zAYEfXVzI0qkMOr3l37Kk8b7SirIQv6yHDfDcf3puXneSOSkeJDaNldDi/LKdE4y30Iyff6vzg53TAtwUiNFunj4xz35KTd9ydnLn5YJ5D6vPIZ8uS5ErCdKNFSJgvbDUgpjBsywvFkIecrR2b5f8UF1/LxmxidO6jlgtaPK4wQIuQj22OIAVbvUS3tJDXaFlkRp/gJkKdYIbrNdpW3VFRdAxpF5RhHWut2oTgzSJHoP/wGiRiJGUdaK0yWBYYOpNraDpeDUIRI6NnoIN0ob3soqr0/5GUF4G5jdtU1QKEIl/omLuoaBUycmFK7tFP/Hv0B7mh7X7MIwfN1mPuYG0urSivNpdcgPIb4+oRjUdYxGZKpmJ87N/nMtqETPBIcFfS0FhN8EoWcgruMCqQH1WoHrQlVfeObzTMh90KRoiCEaKgTQjKpDvXwJrq9tT6TKIq2pcQMa2PrsH3POpFe8hsJBnA5BAFI0TBCFEwQhSMEAUjRMEIUTBCFFiIkydDBSdrcd9+lQwSQSJribK4QgZJoLw0aHXGD99iMyeoyRFvnBPp+LG8TKqBUDDDuyw1Kw5lA6+KGRxKIekvMgvBUKi7GUcKRkaw+O63Q+S5+oQ7cwcSASuYqfxIwif6uwBO3nlDV4UjriBlVD/yFigpAZxDDLyKAAAAAElFTkSuQmCC">
+            <h2>Guidance from Certified Nutritionists</h2>
+          </div>
+          <p>Our team of experienced and certified nutritionists will provide professional guidance and support
+            throughout your journey. They will answer your questions, address your concerns, and keep you motivated as
+            you work towards your goals.</p>
+        </div>
+        <div class="feature-card">
+          <div class="card-container">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABECAYAAAA4E5OyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOhSURBVHgB7ZxPSBRRGMC/NzMr6K5goODSwY0y6FIuJF1CFDpYF73kpc7VRegSUgaNYEE3tUsnL96MQi/lLdPAg4bboYIMXKPcaIMEd1Zwd53mPXe29e3O/tF9b9fd7wcy83wzC++33/ve92ZhCHAsh4e6zYTaTxToAyA+qE4CxPpTE64Rv1cPpncQ+2R1XW+Ke2KPwIS7UEsQGNMixoj/1NjWfhOSMtyxt9ZpB9QmAc0weqgUhbZYZNSuDEpH3OOmDoAshXSfpsbWAaHzpUdRlZgOCMNMmP0KIXABEAZRSB/NIbWcO3h8CiAHQCEcKIQDhXCgEA4UwiFUyNz0VxgdnAcjEmPtqYkA3Lj8Ar6shll7ZWGT9W+sbRX0ec+fLLP7F14HQRRChUxNfGSD/54csD3w4Npfdlx5/4P1z02v5f2sl5OfYDEpwhYqAqlTJpqMFPtYKOGQAa8mP4MMhAnJNmgjsguHQZYMijAhxQw+/Mtw7rOiY+FNEGRR8auMyHyRDXFTZvv/lKn3uHJea2w75xSZ0UGRMmU8DkJaWt3suOOQZOl0qZoIKQWyZVCECdmJxB37/oSiB9pOCbiqhGQbJC/Cxqku2fhWWAVbSip2ylBJhZb0pUQDCYwOvoNmb0OqvbL4E4z7uzmnhF3ey0aYELenLnVOC6/04ot++x8WN1PthiyrUK4cJBJhU+acvyXrQLNxsetkxv/KFSHChFAZD591Q3NrQ87rqLibg5kP/ovdAJYKoUm1rb2JSem65svoa7aKstsPOlm/uzEzkg67ETwqwpNqi3d/4LSUp8nU5s5wJ4uOSkPaslvfKGVBOzL4TJWjYoWkL9syqVghvdfb865QIpAmhN/H5HpKRqHJ2GmFEklF5xB7hZK5Gh2LpJq+DxINrjIcKITjWAhxerAkAowQDmlC+N2rsV2ezVs+pAnhd6/l2t7nA6cMx7EQkq+qLSUYIRwohAOFcJRNSDGrTFUWZvYv/TZtZ5qgUOjD6nRE7n7VW/e6dJAAHQT7rZYAXB04C70D7QXfe/5SK7vX3VgHV/pPF3VvsZDl38MmICkwqXKgEA4UwoFCOFAIBwrhQCEclhAzCEgSM6BYVdksIAwCJKCQBJkBhKEm4iNKp/fxvGVmHGocsmeO+71Pgyypqi5Ntw4BqFVMCKg7UZ2eMiH+E/qW5nL11GKk0MjQovvvDmFt/oKl0JBPVTQ9+ZKEKn0vgBk092CWmGSGpoz0nn9oWkOuvxnkfgAAAABJRU5ErkJggg==">
+            <h2>Food Tracking and Analysis</h2>
+          </div>
+          <p>Effortlessly track your food intake using our user-friendly app. Our nutritionists will analyze your data
+            to provide insights into your eating habits, help you identify areas for improvement, and make personalized
+            recommendations.</p>
+        </div>
+        <div class="feature-card">
+          <div class="card-container">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABECAYAAAA4E5OyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMzSURBVHgB7ZxBSBRRGID/NzPbwdnIQMHt4gYZZIdcyGOSN+uiFHXqJETHukl1aDwUdEo71aVLnQpCL9mtUMKDpNNFIQ8OHVpxhYR2R2hdp/lHF/TPcWeX96bF+T94zMy+HZb59r3/vffPMAIIc4WRy15FHxIaDAKILBxNbOEXvZIazWUsZ2+FqO4srFitW+nyI/DgHiQJAWNGsTSaOz22sXMIuzLM8id/tweSiW2USv0oRcOjoGUkVwbSs5U20QGI2byVNfTyCjDYX/o1XStbwAR4FW9IEwIuABMgNDGIMSTJsYOS1YDZBwshsBACCyGwEAILIbAQggGKWFxYgx/LG1DIb4Jb/LOv7lyuHfquZkPPLeRL8P7V4j+ft2VaoL3DDM5vz5igAiVCXjyZg5kPTmj99JQD3f5FtYVcFNZjCQOl3LrbAxcvnQLZSO8yr5/bh8qoUiyWQ+vW8y4cRmG1BM/ufwlakmykC5mOIAMJk4YXueR3tyh8fLcMspHaZTBuuIf883vBi2k5noKBG2fB9LfV89+Mf/NbgBvt9+YLIBtlQTUKGDixYLBEanUVymZE+fXwX4VUqVeESngeQmAhBBZCiDWGVINnPbi/y5FHLhnEJuT68Hm4NtwNjXB7YCI2KbEJwQlXIzNLug5STWxCaq1PmgUOqgQWQoh1lOnsaoWWdOrAuqUF+euSRmiaUealn0OJulJWSWxCnOVfQTHTxw6sX5qPtuRXTWxCvs78DEqzw0GVwEIILITAQggshMBCCCyEwEIILITAQggshMBCCFKFqHpmI4xGsvi1kCukwwxNAKkAH5yRjfQug4mgOGjz5fddyYJspOdDBm52Bdupt99hfVXNTWxsGXce9CrpomJu7aEHisA8Kd5gKkm6t4LZts4zJ0IfxZKB0oyZij6uGh52CSyEwEIILITAQggshMBCCCyE4AvxHGB28WzNn7dPAhMgQNiaqIgJYAL0ytao1pt5/Nk3Mw4JR2x747nMUycIqnrKsPyNDUnFA1vfdC3cDYTkTlobRirVn8SWgi3DcHfeHRIc0y/M5keyumZYuy9JOKLvBfAcbxsmhScmMGTsrfkLFhn7upycgugAAAAASUVORK5CYII=">
+            <h2>Meal Planning and Recipes</h2>
+          </div>
+          <p>Access a vast collection of delicious and healthy recipes tailored to your dietary needs. Our nutritionists
+            will also create personalized meal plans, making it easier for you to stay on track and enjoy nutritious
+            meals.</p>
+        </div>
+        <div class="feature-card">
+          <div class="card-container">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABECAYAAAA4E5OyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANISURBVHgB7Zw/aBNhFMDfd3cRzEVsoYGGQhvBCMXBBu2m1g6Cf4YWRDcXl06KW6EdvIItONnqpEMdHKvSTnazKNKhSG+xBTs0kymNYKFNOqTpee9rUi6vSSG5uwR77wch33cJybtf3nv58hFOAGEpM3zDKqiDQoEBABGHk4kp7JtaCI0lY0bK+YAoDZbXjZa9SP4ZWPAUgoSASW0nO5Y8N7l1MIWiDD3/xR72QDAxtWy2H6UoOJOZEVwZSM9eREcHIBbTRlxT8+vAYL30K6qSN4CRWAVrUBECLgEjEYoYwB4S5N5BiSvAlMFCCCyEwEIILITAQggshMBCCCyEwEIILITAQggshMBCCBr4yMryJmQ2cqBHQnDlWge4wflaXedbIBrTwQ98EZLdzsPLke+wupw5PBZt12H0dV9dJ/Jx+id8ml4pOzY00gvX78TBa3wpmfmZX2UykMxGFt5MLEGtZNLZIzKQ969MyO7kwWs8EYJBO6EySvxJ56BWVs3Kr5WzZTjfF8eYmW5xVTIYxPjjBVnbbkqiXnaLGfLcjqH0IbgtJVcZ8vVzSspAsCTmZ9ag0WCzdWZkpfKqBVdCUIKT3Lb3Nd1oeB1C8HUdUg3sPStVmmUJL9Yu9dAUIfjN8Xb8+K9gbNLNEMIlQ2AhBBZCYCGEpjTV7p4oDI32HvuccOQUNIOmCMHlfSOX+LXAJUNwJUQnaR0+E4JGQ2M4HXEXgysht+4noK09LMdhOxCcN5quRIu8lehzuWnkqodgH5j6cFf+2uy0t/X0JmQIMvHupmcxeNJDupPRskBwXonOxFmoFVzCV6PTkRk0hnrxpanefnDhsJRKtNkn9vBJ7X9nwxO99+jikeN4TI94n5FiaXPUAp/48e03pNb+ytK6fLXD1SeIJYGbQXLXPdFaNQvd4quQ/xFehxBYCIGFEFgIgYUQWAiBhRBYCIGFEFgIgYUQWAiBhRBYCIGFEGwhVgqYIpap2LtDc8BIBAhTEQUxC4xELeyNKb2x8QXbzBQEHLFvTSVjL1KyqaohzbDvTAgqFpjqbs7AoRSSbDW2tFCoP4iZgpmh5Q6uHSLn9AmL6eG4qmhG8SIJJ/S6AFbK2oc5YYlZbBnOR/4Bkab5PxSLB6wAAAAASUVORK5CYII=">
+            <h2>Lifestyle and Behavior Coaching</h2>
+          </div>
+          <p>Achieving sustainable results requires more than just a diet plan. Our nutritionists will work with you to
+            develop healthy habits, address emotional eating, and provide strategies to overcome obstacles along the
+            way.</p>
+        </div>
+        <div class="feature-card">
+          <div class="card-container">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABECAYAAAA4E5OyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAPmSURBVHgB7ZxfSFNRHMd/5+4uyBlMUFCDXKBB9pBDe9T0qexFMeqph/Q96k1Ioflg0JviUz3Yu5LoS1k+VBoI/sG9ZOACp2ATJ7Rwm9Cct/O7utKTE3Tnd8bc+cDwzrtxt89+93vu/d3DZSAwG+5stJKOVmZACwDzwNnEz/jDkXT2eMt8wYMrWGphYdnn3ilMPAMLnkA+waDPjMZ6vJf7IntPYV+GK/GRL9ZAfuI3Y7EmlGLgM7sy8lcGUrNT6EIHwKZDPo/pSCyDBveXJsNhJHygsbGSVqvBGFwHjQ0zWAtmSD5nh4jHAM0htBABLURACxEwIYvEthIw92XNXnYVOqGi0g0lZS7IJlkRgiJePZ+Buakf/61raPZAW0d11sQo32VQRlf7h0MyCnh1pJh8F4TeR58hFk1ANlBeIVP8C4fX4/by7ftXoK29GlwXnBAOxfi6FXgz+JWvj8H40BLc7bgGqlEuBCsAqahy88owYXx46dD6ktICW9jU25WsCGGzG10WELO4sAHzkyEuYxniJ9gVSkpdcNVbojRTSIUcF54nBcP2weMaezSihCxUMRPE8MwE3NW6Hk6Qhy2ZkJHBxb/hKQsM25e9M0AJiRDMjFR4ymaeV9y3hTBQQSLk/dB3oASHZiqkC8FRZG5qDShZCUTIskS6EMpyToHSVwMRoEC6kGDgJ6iAajvShawGfoEKqLYjXUgs+htUEMyVXQaPFVSwnSuhuhmSezCWDqpKzNkWYjwXKiSepaaOTKQKURWo/7Yn/wfI6a779pb8H0BZxwz7pnX1F0/0njivOBxeN9fVBDWiREgx73x1D9w8VdcL+ypP2yeU5ZPcUN06+kPXNZSfugWI76vl71eFklAtyLDth71VVehLmQJKMgTbifiQTZTnSjHIJbeHXYKgVVIheF0lk4tO2DKkqLCj0BkioIUIaCECWoiAEiGZduJVdPJTSB1lXIXnjvw/fiEcKWrry9O+Jh3jw4G0Qs4TXPiWKuS48xWKgzNPlRtkI3WXwXMWnM+hAqrtSM+Quno1Z6Y4X4QC6UJw3lhxaQFQgv2VhjseoIBklOkeaCSTkmo2UUE2pQo7XSOvF2Fuck1KtwvzqZlX3617VfasRSqUTLrDYXOFX5w+TZfcnuFcVQSXKt2kIlIoEZJL6EN3AS1EQAsR0EIEtBABLsQKgmYfy2/wMXcMNDYMmN9gSTYKGhtHcqfHuFHW+4mb6Yc8h+1a/d6yF0E7VB1O08f/+CFfscDv2I77cNEW4i3yRUynsykfKwUrw4zv3TvEfi6+YDrU6XEYpm//Jgln9L4AVtDahTFmsVGMjINr/gC7ynaeolmCswAAAABJRU5ErkJggg==">
+            <h2>Nutritional Education and Workshops</h2>
+          </div>
+          <p>Expand your knowledge of nutrition through informative articles and educational workshops. Our
+            nutritionists will equip you with the knowledge and tools to make informed choices for long-term success.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blogs">
+    <div class="blog-container">
+      <div class="blog-text">
+        <h2>Our Blogs</h2>
+        <p>Our blog is a treasure trove of informative and engaging articles written by our team of nutritionists,
+          dietitians, and wellness experts. Here's what you can expect from our blog.</p>
+      </div>
+
+      <div class="blog-card-container">
+        <div class="blog-card">
+          <div class="card-image">
+            <img src="/Healt_App/assets/Weight_Loss-CYHPhFrh.png">
+          </div>
+          <div class="card-text">
+            <p>
+              Weight Loss
+            </p>
+            <h2>The Benefits of Hydration for Weight Loss</h2>
+            <p>Discover how staying hydrated can support your weight loss goals and improve overall health.</p>
+            <div class="card-subcontainer">
+              <div class="author-info">
+                <div class="author-image">
+                  <img src="/Healt_App/assets/emily-Ig3SCudu.png">
+                </div>
+                <div class="author-content">
+                  <p>Emily Johnson</p>
+                  <span> May 2023 - 5 min read</span>
+                </div>
+              </div>
+              <div class="icons">
+                <div> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIASURBVHgB5VW7UsJAFN0k0FHoH2DBoxP/IHYML/kDwhdIa2Xo7MQvMP4BDs9O7LSLHY/C+Ac6Q2HBw3OYjRN3UIFUjmcmuXezd8+5e/cRIf46NPVDLpfLwFiapp3gicN/xeMul0un0+ncyBhL1/UKXMbuIc5bLBaDaDRabzab3rcChULhHMYW38OVguYPMXa73a77DX0dObK5ikQiBwjUptPpPtpVzMCTGZvSr7GPMeg/QvvGF8jn87UvMyiXy/HZbPa8+qBp1Var5ahpZbPZuGEYd/Tn8/lxv9/31JhisWhB/Jo+E2S5VgJQdEBcweOAvCpCAJVowJyyCt1ut6bLrA9lZlciPJp8YbYntP4asLYCiq4ICazJgBaligcFuDOEaZp7IiSwnl84fAGPr1gslhEhgc2y4sAM3KDArbTnIjwupW18CmBLsbE6QPI87AQ5NsNzgg1zz28GX8Ph8D2ZTD7CtSgCX4zH4/sdyG36EDju9XrDTwEChF4qlXqBW95WJEjOg4o7q+/3GcFAELrbiqjk6i1gqAO2ESmVShWUoyGbdZyBhhpjrBtIkUQi8YaMshShP5lMHlRyXAdOgNxex7VWgCAhsuddZVIonU57o9HoaRtyQhO/ADW2hTwf+MlYtJuSbySgigTwKzlhiA2ANRnIcvEaeMfCnmErXoh/gQ+gkANvjR826gAAAABJRU5ErkJggg=="></div>
+                <div> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFQSURBVHgB7VU7boNAEN0FLFFyBNLQ06V0OsRH4gbBJzDp0sU5geMTxEdA4iO6cIP0NOEIlhAdgryJiOQQArhIkYiRRrM7nzeflWYZ++vEh5S2bT9A+GCFzaNT27bHOI7v+gaxr3AcZw9xD5bZfJI559eapvE8z7Nzg9T3RCUeybqur9I0LdgMMgxDlSTpDccteHduEwb8P8YyF7zn+22kAvtlWhIsCZYEFyZwXVchviRGmuMEUBW76Rm8prtlWcfVavUYBEExFTvZAVb3FsCvOK7BJ2JsTo90SORPxfMBwJZk0zS6IAj7DpgBNCjLciPLsoLNuYPqttMXoijeICFtUxZF0RfMH0cEcKqa1ncBkE0Yhllnoi480zQz6OljUj/BB3HYCKGLQ1VVOqrK+rYkSegddBwPYxhDH05BkqoGSDYWjEembnx8OE8Y0wv7l/QOFWd4SvFHCZUAAAAASUVORK5CYII="></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="card-image">
+            <img src="/Healt_App/assets/Mindful_Eating-CJ5ge80w.png">
+          </div>
+          <div class="card-text">
+            <p>
+              Mindful Eating
+            </p>
+            <h2>Cultivating a Healthy Relationship with Food</h2>
+            <p>Learn how practicing mindful eating can help you develop a healthier relationship with food and improve
+              your overall well-being.</p>
+            <div class="card-subcontainer">
+              <div class="author-info">
+                <div class="author-image">
+                  <img src="/Healt_App/assets/sarah-U13ibABj.png">
+                </div>
+                <div class="author-content">
+                  <p>Sarah Thompson</p>
+                  <span> May 2023 - 5 min read</span>
+                </div>
+              </div>
+              <div class="icons">
+                <div> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIASURBVHgB5VW7UsJAFN0k0FHoH2DBoxP/IHYML/kDwhdIa2Xo7MQvMP4BDs9O7LSLHY/C+Ac6Q2HBw3OYjRN3UIFUjmcmuXezd8+5e/cRIf46NPVDLpfLwFiapp3gicN/xeMul0un0+ncyBhL1/UKXMbuIc5bLBaDaDRabzab3rcChULhHMYW38OVguYPMXa73a77DX0dObK5ikQiBwjUptPpPtpVzMCTGZvSr7GPMeg/QvvGF8jn87UvMyiXy/HZbPa8+qBp1Var5ahpZbPZuGEYd/Tn8/lxv9/31JhisWhB/Jo+E2S5VgJQdEBcweOAvCpCAJVowJyyCt1ut6bLrA9lZlciPJp8YbYntP4asLYCiq4ICazJgBaligcFuDOEaZp7IiSwnl84fAGPr1gslhEhgc2y4sAM3KDArbTnIjwupW18CmBLsbE6QPI87AQ5NsNzgg1zz28GX8Ph8D2ZTD7CtSgCX4zH4/sdyG36EDju9XrDTwEChF4qlXqBW95WJEjOg4o7q+/3GcFAELrbiqjk6i1gqAO2ESmVShWUoyGbdZyBhhpjrBtIkUQi8YaMshShP5lMHlRyXAdOgNxex7VWgCAhsuddZVIonU57o9HoaRtyQhO/ADW2hTwf+MlYtJuSbySgigTwKzlhiA2ANRnIcvEaeMfCnmErXoh/gQ+gkANvjR826gAAAABJRU5ErkJggg=="></div>
+                <div> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFQSURBVHgB7VU7boNAEN0FLFFyBNLQ06V0OsRH4gbBJzDp0sU5geMTxEdA4iO6cIP0NOEIlhAdgryJiOQQArhIkYiRRrM7nzeflWYZ++vEh5S2bT9A+GCFzaNT27bHOI7v+gaxr3AcZw9xD5bZfJI559eapvE8z7Nzg9T3RCUeybqur9I0LdgMMgxDlSTpDccteHduEwb8P8YyF7zn+22kAvtlWhIsCZYEFyZwXVchviRGmuMEUBW76Rm8prtlWcfVavUYBEExFTvZAVb3FsCvOK7BJ2JsTo90SORPxfMBwJZk0zS6IAj7DpgBNCjLciPLsoLNuYPqttMXoijeICFtUxZF0RfMH0cEcKqa1ncBkE0Yhllnoi480zQz6OljUj/BB3HYCKGLQ1VVOqrK+rYkSegddBwPYxhDH05BkqoGSDYWjEembnx8OE8Y0wv7l/QOFWd4SvFHCZUAAAAASUVORK5CYII="></div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="blog-card">
+          <div class="card-image">
+            <img src="/Healt_App/assets/Understanding_Macronutrients-x7o5DXfW.png">
+          </div>
+          <div class="card-text">
+            <p>
+              Understanding Macronutrients
+            </p>
+            <h2>Carbohydrates, Proteins, and Fats</h2>
+            <p>Get a comprehensive understanding of macronutrients and their role in your diet for optimal health and
+              weight management.</p>
+            <div class="card-subcontainer">
+              <div class="author-info">
+                <div class="author-image">
+                  <img src="/Healt_App/assets/mark-2J4STf9i.png">
+                </div>
+                <div class="author-content">
+                  <p>Mark Wilson</p>
+                  <span> May 2023 - 5 min read</span>
+                </div>
+              </div>
+              <div class="icons">
+                <div> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIASURBVHgB5VW7UsJAFN0k0FHoH2DBoxP/IHYML/kDwhdIa2Xo7MQvMP4BDs9O7LSLHY/C+Ac6Q2HBw3OYjRN3UIFUjmcmuXezd8+5e/cRIf46NPVDLpfLwFiapp3gicN/xeMul0un0+ncyBhL1/UKXMbuIc5bLBaDaDRabzab3rcChULhHMYW38OVguYPMXa73a77DX0dObK5ikQiBwjUptPpPtpVzMCTGZvSr7GPMeg/QvvGF8jn87UvMyiXy/HZbPa8+qBp1Var5ahpZbPZuGEYd/Tn8/lxv9/31JhisWhB/Jo+E2S5VgJQdEBcweOAvCpCAJVowJyyCt1ut6bLrA9lZlciPJp8YbYntP4asLYCiq4ICazJgBaligcFuDOEaZp7IiSwnl84fAGPr1gslhEhgc2y4sAM3KDArbTnIjwupW18CmBLsbE6QPI87AQ5NsNzgg1zz28GX8Ph8D2ZTD7CtSgCX4zH4/sdyG36EDju9XrDTwEChF4qlXqBW95WJEjOg4o7q+/3GcFAELrbiqjk6i1gqAO2ESmVShWUoyGbdZyBhhpjrBtIkUQi8YaMshShP5lMHlRyXAdOgNxex7VWgCAhsuddZVIonU57o9HoaRtyQhO/ADW2hTwf+MlYtJuSbySgigTwKzlhiA2ANRnIcvEaeMfCnmErXoh/gQ+gkANvjR826gAAAABJRU5ErkJggg=="></div>
+                <div> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFQSURBVHgB7VU7boNAEN0FLFFyBNLQ06V0OsRH4gbBJzDp0sU5geMTxEdA4iO6cIP0NOEIlhAdgryJiOQQArhIkYiRRrM7nzeflWYZ++vEh5S2bT9A+GCFzaNT27bHOI7v+gaxr3AcZw9xD5bZfJI559eapvE8z7Nzg9T3RCUeybqur9I0LdgMMgxDlSTpDccteHduEwb8P8YyF7zn+22kAvtlWhIsCZYEFyZwXVchviRGmuMEUBW76Rm8prtlWcfVavUYBEExFTvZAVb3FsCvOK7BJ2JsTo90SORPxfMBwJZk0zS6IAj7DpgBNCjLciPLsoLNuYPqttMXoijeICFtUxZF0RfMH0cEcKqa1ncBkE0Yhllnoi480zQz6OljUj/BB3HYCKGLQ1VVOqrK+rYkSegddBwPYxhDH05BkqoGSDYWjEembnx8OE8Y0wv7l/QOFWd4SvFHCZUAAAAASUVORK5CYII="></div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="blog-card">
+          <div class="card-image">
+            <img src="/Healt_App/assets/healty_snacks-r3AsxsPm.png">
+          </div>
+          <div class="card-text">
+            <p>
+              Healthy Snacks on the Go
+            </p>
+            <h2>Quick and Nutritious Options</h2>
+            <p>Explore a variety of convenient and healthy snack ideas to keep you fueled throughout the day.</p>
+            <div class="card-subcontainer">
+              <div class="author-info">
+                <div class="author-image">
+                  <img src="/Healt_App/assets/emily-Ig3SCudu.png">
+                </div>
+                <div class="author-content">
+                  <p>Emily Johnson</p>
+                  <span> May 2023 - 5 min read</span>
+                </div>
+              </div>
+              <div class="icons">
+                <div> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIASURBVHgB5VW7UsJAFN0k0FHoH2DBoxP/IHYML/kDwhdIa2Xo7MQvMP4BDs9O7LSLHY/C+Ac6Q2HBw3OYjRN3UIFUjmcmuXezd8+5e/cRIf46NPVDLpfLwFiapp3gicN/xeMul0un0+ncyBhL1/UKXMbuIc5bLBaDaDRabzab3rcChULhHMYW38OVguYPMXa73a77DX0dObK5ikQiBwjUptPpPtpVzMCTGZvSr7GPMeg/QvvGF8jn87UvMyiXy/HZbPa8+qBp1Var5ahpZbPZuGEYd/Tn8/lxv9/31JhisWhB/Jo+E2S5VgJQdEBcweOAvCpCAJVowJyyCt1ut6bLrA9lZlciPJp8YbYntP4asLYCiq4ICazJgBaligcFuDOEaZp7IiSwnl84fAGPr1gslhEhgc2y4sAM3KDArbTnIjwupW18CmBLsbE6QPI87AQ5NsNzgg1zz28GX8Ph8D2ZTD7CtSgCX4zH4/sdyG36EDju9XrDTwEChF4qlXqBW95WJEjOg4o7q+/3GcFAELrbiqjk6i1gqAO2ESmVShWUoyGbdZyBhhpjrBtIkUQi8YaMshShP5lMHlRyXAdOgNxex7VWgCAhsuddZVIonU57o9HoaRtyQhO/ADW2hTwf+MlYtJuSbySgigTwKzlhiA2ANRnIcvEaeMfCnmErXoh/gQ+gkANvjR826gAAAABJRU5ErkJggg=="></div>
+                <div> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFQSURBVHgB7VU7boNAEN0FLFFyBNLQ06V0OsRH4gbBJzDp0sU5geMTxEdA4iO6cIP0NOEIlhAdgryJiOQQArhIkYiRRrM7nzeflWYZ++vEh5S2bT9A+GCFzaNT27bHOI7v+gaxr3AcZw9xD5bZfJI559eapvE8z7Nzg9T3RCUeybqur9I0LdgMMgxDlSTpDccteHduEwb8P8YyF7zn+22kAvtlWhIsCZYEFyZwXVchviRGmuMEUBW76Rm8prtlWcfVavUYBEExFTvZAVb3FsCvOK7BJ2JsTo90SORPxfMBwJZk0zS6IAj7DpgBNCjLciPLsoLNuYPqttMXoijeICFtUxZF0RfMH0cEcKqa1ncBkE0Yhllnoi480zQz6OljUj/BB3HYCKGLQ1VVOqrK+rYkSegddBwPYxhDH05BkqoGSDYWjEembnx8OE8Y0wv7l/QOFWd4SvFHCZUAAAAASUVORK5CYII="></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="calorie">
+    <div class="calorie-container">
+      <div class="testimonials">
+        <h1>Test your daily Calorie Requirement</h1>
+        <p>To determine your daily calorie requirement, we need some information about your age, gender, weight, height
+          and activity level. Enter this information to calculate your individual requirements.</p>
+      </div>
+
+      <form>
+        <div class="form-container">
+
+          <div class="input-container">
+            <div class="top-input">
+              <div class="input-top-left">
+                <label>Body Size (in cm)</label>
+                <input type="text" id="sizeInput">
+              </div>
+              <div class="input-top-right">
+                <label>Age</label>
+                <input type="text" id="ageInput">
+              </div>
+            </div>
+
+            <div class="bottom-input">
+              <div class="input-top-left">
+                <label>Weight</label>
+                <input type="text" id="weightInput">
+              </div>
+              <div class="input-top-right">
+                <label>Activity</label>
+                <select name="activity" id="activity">
+                  <option>Exclusively sedentary work with little or no physical activity in leisure time...
+                  </option>
+                  <option value="0.95">sleep</option>
+                  <option value="1.2">just sit or lie</option>
+                  <option value="1.5">Exclusively sedentary work with little or no physical activity in leisure time,
+                    e.g. office work
+                  </option>
+                  <option value="1.7">Sedentary work with occasional walking or standing, e.g., students, assembly line
+                    workers,
+                    laboratory technicians, professional drivers</option>
+                  <option value="1.9">Predominantly walking or standing activity, e.g. salespeople, waiters, craftsmen,
+                    mechanics
+                  </option>
+                  <option value="2.2">
+                    Physically demanding professional work
+                  </option>
+
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="gender">
+            <p>Gender</p>
+            <div class="gender-type">
+              <div>
+                <input checked type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+              </div>
+              <div>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="female">Male</label>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="calculate">
+            <button type="submit" id="btnCalculate">Calculate</button>
+          </div>
+
+        </div>
+        <div class="calorie-output">
+          <table class="result-table">
+            <tr>
+              <td></td>
+              <td>kcal</td>
+              <td>kJ</td>
+            </tr>
+            <tr>
+              <td>Basal Metabolic Rate</td>
+              <td class="metabolic-kcal"></td>
+              <td class="metabolic-kj"></td>
+            </tr>
+            <tr>
+              <td>Total Daily Energy Expenditure</td>
+              <td class="energy-kcal"></td>
+              <td class="energy-kj"></td>
+            </tr>
+          </table>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="Price">
+    <div class="text-container">
+      <h2>Our Pricing</h2>
+      <p>We outline our flexible and affordable options to support you on your journey to optimal health and nutrition.
+        We believe that everyone deserves access to personalized nutrition guidance and resources</p>
+    </div>
+    <div class="content-container">
+      <div class="time-container">
+        <div class="tabs">
+          <button>Monthly</button>
+          <button>Yearly</button>
+        </div>
+        <p>Save 50% on Yearly</p>
+      </div>
+
+      <div class="price-card-container">
+        <div class="price-card">
+          <div class="plan-title">
+            <h3>Basic Plan</h3>
+            <p>Up to 50% off on Yearly Plan</p>
+          </div>
+
+          <div class="plan-text">
+            <p>Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching,
+              access
+              to our app, meal planning assistance, and email support.</p>
+          </div>
+
+          <div class="price-choose">
+            <p><span>$49 </span>/month</p>
+            <button>Choose Plan</button>
+          </div>
+
+        </div>
+        <div class="price-card">
+          <div class="plan-title">
+            <h3>Premium Plan</h3>
+            <p>Up to 50% off on Yearly Plan</p>
+          </div>
+
+          <div class="plan-text">
+            <p>Upgrade to our Premium Plan for enhanced features. In addition to the Basic Plan, you'll receive video
+              consultations, priority support, and personalized recipe recommendations.</p>
+          </div>
+
+          <div class="price-choose">
+            <p><span>$79 </span>/month</p>
+            <button>Choose Plan</button>
+          </div>
+
+        </div>
+        <div class="price-card">
+          <div class="plan-title">
+            <h3>Ultimate Plan</h3>
+            <p>Up to 50% off on Yearly Plan</p>
+          </div>
+
+          <div class="plan-text">
+            <p>Experience the full benefits of personalized nutrition coaching with our Ultimate Plan. Enjoy all the
+              features of the Premium Plan, along with 24/7 chat support and exclusive workshops.</p>
+          </div>
+
+          <div class="price-choose">
+            <p><span>$99 </span>/month</p>
+            <button>Choose Plan</button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <script src="/src/main.ts"></script>
+</body>
+
+</html>
