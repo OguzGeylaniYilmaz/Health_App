@@ -556,6 +556,10 @@ input[type="radio"]:checked {
 
 /** Pricing **/
 
+.Price {
+  height: 900px;
+}
+
 .text-container {
   margin: 0px 60px 0px 120px;
   height: 140px;
@@ -689,4 +693,95 @@ input[type="radio"]:checked {
   color: #1a3129;
   font-weight: 600;
   font-size: 18px;
+}
+
+/** Footer **/
+
+footer {
+  height: 300px;
+  background-color: #1a3129;
+  overflow: hidden;
+}
+
+.footer-top {
+  width: 85%;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.footer-logo {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.footer-logo h3 {
+  color: #ffffff;
+}
+
+.footer-nav {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-nav a {
+  text-decoration-line: none;
+  color: white;
+  font-family: "Urbanist";
+  font-weight: 600;
+}
+
+.footer-to-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 170px;
+  height: 100%;
+}
+
+.footer-to-top p {
+  color: white;
+  font-family: "Urbanist";
+}
+
+.footer-to-top img {
+  background-color: #234338;
+  border-radius: 50%;
+  height: 60px;
+  max-width: 100%;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #234338;
+
+  height: 87px;
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 0px 15px 0 15px;
+}
+
+.footer-info {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info div {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.footer-bottom p {
+  color: white;
 }
